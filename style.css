@@ -1,0 +1,111 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.img-box{
+    width: 1200px;
+    height: 800px;
+     margin: auto;
+    margin-top: 5rem;
+  position: relative;
+}
+
+.img-box img{
+    display: block;
+    width: 90%;
+    height:90%;
+     margin: auto;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+ .logo i{
+    font-size: 1.5rem;
+    padding: 0.2rem;
+   margin-right: 0.5rem;
+   color: #fff;
+ }
+  .logo p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 15rem;
+    color: #fff;
+  }
+  .nav-items {
+    display: flex;
+    justify-content: end;
+    }  
+.nav-items p{
+    display: flex;
+    justify-content: end;
+    margin-left: 1rem;
+    margin-right: 0;
+    color: #fff;
+}
+ 
+.img-box .logo{
+    position: absolute;
+    top: 1rem;
+    left: 8rem;
+}
+
+.navbar span{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.boxes{
+    position: relative;
+    position: absolute;
+    top: 500px;
+    left: 190px;
+}
+ .box2{
+    position: absolute;
+    top: 500px;
+    left: 470px;
+ }
+
+ .box3{
+    position: absolute;
+    top: 500px;
+    left: 750px;
+ }
+.boxes .img-content{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    box-shadow: 3PX 7PX 5PX 2PX #fdfd;
+    padding: 1rem;
+    top: 120px;
+    left: 35px;
+}
+
+.img-content h1{
+   font-size: 1.5rem;
+   font-weight: 600;
+}
+
+.img-content p{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+button{
+    position: absolute;
+    padding: 0.5rem;
+    width: 7rem;
+   top: 190px;
+   left: 133px;
+   background-color: forestgreen;
+   color: #fff;
+   border-radius: 3px;
+   border: none;
+}
